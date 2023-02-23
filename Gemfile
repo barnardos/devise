@@ -11,9 +11,10 @@ gem "rdoc"
 
 gem "rails-controller-testing", github: "rails/rails-controller-testing"
 
-gem "responders", "~> 3.0"
+gem "responders", "~> 3.1"
 
 group :test do
+  gem "nokogiri", "< 1.13"
   gem "omniauth-facebook"
   gem "omniauth-openid"
   gem "rexml"
